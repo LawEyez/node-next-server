@@ -1,6 +1,8 @@
 import express from 'express'
 import { createRequire } from 'module' // Bring in ability to create 'require' method. ('import data from data.json' doesn't work.)
 
+import config from './config' 
+
 // Construct the require method.
 const require = createRequire(import.meta.url)
 
@@ -8,7 +10,7 @@ const require = createRequire(import.meta.url)
 const data = require('./data.json')
 
 const app = express()
-const port = 5000
+const port = config.PORT || 5000
 
 /**
  * Get users.

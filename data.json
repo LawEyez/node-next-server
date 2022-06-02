@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "name": "Allen",
+      "email": "allen@afordia.net"
+    },
+    {
+      "name": "Johnny",
+      "email": "johnny@afordia.net"
+    },
+    {
+      "name": "Rachel",
+      "email": "rachel@afordia.net"
+    }
+  ]
+}

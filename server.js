@@ -10,7 +10,7 @@ const require = createRequire(import.meta.url)
 const data = require('./data.json')
 
 const app = express()
-const port = config.PORT || 5000
+const port = config.PORT || 8080
 
 /**
  * Get users.

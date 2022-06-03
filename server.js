@@ -1,7 +1,7 @@
 import express from 'express'
 import { createRequire } from 'module' // Bring in ability to create 'require' method. ('import data from data.json' doesn't work.)
 
-import config from './config' 
+import config from './config.js' 
 
 // Construct the require method.
 const require = createRequire(import.meta.url)
